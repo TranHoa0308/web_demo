@@ -1,0 +1,222 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:"Roboto",sans-serif;
+}
+header{
+    position: fixed;
+    background: #22242A;
+    padding: 20px;
+    width: 100%;
+    height: 40px;
+}
+.left_area{
+    color:#fff;
+    margin-top: -20px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+.left_area span{
+    color:#1DC4E7;
+}
+.logout_btn{
+    padding:5px;
+    background: #19B3D3;
+    text-decoration: none;
+    float: right;
+    margin-top: -55px;
+    margin-right:40px;
+    border-radius:2px;
+    font-size:15px;
+    font-weight: 650;
+    color:#fff;
+    transition: 0.5s;
+    transition-property: background;
+}
+.logout_btn:hover{
+    background: #0D9DBB;
+}
+.slidebar{
+    background: #2F323A;
+    margin-top:5px;
+    padding-top:5px;
+    position:fixed;
+    left:0;
+    width: 250px;
+    height: 100%;
+    transition: 0.5s;
+    transition-property: left;
+}
+.profile_image{
+    margin-top: 20px;
+    border-radius:100px;
+    margin-bottom: 5px;
+}
+
+.slidebar h4{
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.slidebar a{
+    color:#fff;
+    display:block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition-property: background;
+}
+.slidebar a:hover{
+    background: #19B3D3;
+}
+
+.slidebar i{
+    padding-right: 10px;
+}
+
+label #slidebar_btn{
+    z-index: 1;
+    color: #fff;
+    position: fixed;
+    cursor: pointer;
+    left:460px;
+    font-size: 25px;
+    margin: 8px 0;
+    transition: 0.5s;
+    transition-property: color;
+}
+label #slidebar_btn:hover{
+    color:#19B3D3;
+}
+
+#check:checked ~ .slidebar{
+    left:-200px;
+}
+
+#check:checked ~ .slidebar a span{
+    display: none;  
+}
+#check:checked ~ .slidebar a{
+    font-size: 20px;
+    margin-left:170px;
+    width: 80px;
+}
+
+.content{
+    margin-left: 250px;
+    background-image: url("../img/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:90vh;
+    transition: 0.5s;
+}
+
+#check:checked ~.content{
+    margin-left: 43px;
+}
+#check{
+    display: none;
+}
+.profile_image_1{
+    border-radius:100px;
+    height: 10%;
+    width: 10%;
+}
+.hien_thi{
+    padding-left: 30px; 
+    left: 10px;
+}
+.gallery {
+    margin: 5px;
+    border: 10px solid #ccc;
+    border-radius:12px;
+    float: left;
+    width: 178px;
+}
+.gallery:hover {
+    border: 10px solid #777;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 10px;
+    text-align: center;
+    color:rgb(90, 90, 86);
+}
+.centered {
+    position: fixed; /* or absolute */
+    top: 23%;
+    left: 23%;
+}
+.end{
+    position : fixed;
+    top: 90%;
+    left: 46%;
+}
+#khung_vien{
+    margin-left: 350px;
+    margin-top: 15px;
+    width: 600px;
+    height: 450px;
+}
+#khung_vien_1{
+    margin-left: 350px;
+    margin-top: 15px;
+    width: 600px;
+    height: 640px;
+}
+.khung_dien_1{  
+    margin-left: 80px;
+    border: 3px solid;
+    border-radius:5px;
+    width: 200px;
+    height: 40px;
+}
+.khung_dien_2{  
+    margin-left: 21px;
+    border: 3px solid;
+    border-radius:5px;
+    width: 200px;
+    height: 40px;
+}
+.khung_dien_3{  
+    margin-left: 1px;
+    border: 3px solid;
+    border-radius:5px;
+    width: 200px;
+    height: 40px;
+}
+.khung_dien_4{  
+    margin-left: 117px;
+    border: 3px solid;
+    border-radius:5px;
+    width: 200px;
+    height: 40px;
+}
+.khung_dien_5{  
+    margin-left: 79px;
+    border: 3px solid;
+    border-radius:5px;
+    width: 200px;
+    height: 40px;
+}
+.khung_dien_6{  
+    margin-left: 49px;
+    border: 3px solid;
+    border-radius:5px;
+    width: 200px;
+    height: 40px;
+}
+.table{
+    text-align: center;
+}
+.thong_tin{
+    margin-top: 50px;
+    margin-left: 20px;
+}
